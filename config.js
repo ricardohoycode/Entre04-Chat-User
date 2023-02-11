@@ -12,7 +12,7 @@ const configs = {
             port: 5432,
             username: 'postgres',
             password: 'root',
-            database: 'chat-db',
+            database: 'chat_db',
             define: {
                 timestamps: true, //? Nos obliga a que todas las tablas tengan la propiedad createdAt y upadtedAt
                 underscored: true,
@@ -26,7 +26,7 @@ const configs = {
             port: 5432,
             username: 'postgres',
             password: 'root',
-            database: 'chat-db',
+            database: 'chat_db',
             define: {
                 timestamps: true, //? Nos obliga a que todas las tablas tengan la propiedad createdAt y upadtedAt
                 underscored: true,
