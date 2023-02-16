@@ -15,7 +15,7 @@
 
 ![Database Diagram](https://i.imgur.com/IHhtWv2.png)
 
-Ejemplo de respuestas exitosas:
+***Ejemplo de respuestas exitosas:***
 > {
     error: false,
     status: 201,
@@ -43,13 +43,13 @@ Validar si la contraseña es correcta - Validando la contraseña que recibimos c
 
 Generar una respuesta con el token
 
-> <h1>Autenticacion por tokens</h1></hr>
+> <h1>[Autenticacion por ***tokens***](./README.md)</h1></hr>
 
-Recibimos el token
+<Recibimos el token>
 
-Ese token lo desencriptamos
+<Ese token lo desencriptamos>
 
-Una vez el token desencriptado, tenemos que ver si pertenece a un usuario de mi app
+<Una vez el token desencriptado, tenemos que ver si pertenece a un usuario de mi app.>
 
-Esto se logra haciendo una validacion buscando en mi db si existe x usuario con el id que viene en el token
-Damos paso a la peticion si es que es un usuario real o generamos un error en caso de que no lo sea
+<Esto se logra haciendo una validacion buscando en mi db si existe x usuario con el id que viene en el token
+Damos paso a la peticion si es que es un usuario real o generamos un error en caso de que no lo sea>
