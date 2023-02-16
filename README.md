@@ -30,7 +30,7 @@
     }
 }
 
-> Autenticacion
+>  <h2>Autenticacion</h2>
 <ul>
     <li>Log In
     <li>Sign In
@@ -39,7 +39,7 @@
     <li>Cuando hacemos un login recibimos lo siguiente - Email - <li>Password
 </ul>
 
-> POST
+> <h2>POST</h2>
 
 <ul>
     <li>Validar si el usuario existe - Vamos a buscar el usuario al que le pertenezca el correo electronico que recibimos.
@@ -52,6 +52,6 @@
 
 > <h1> Autenticacion por tokens</h1></hr>
 
-> Recibimos el token
+> <h2>Recibimos el token</h2>
 
 > Ese token lo desencriptamos. Una vez el token desencriptado, tenemos que ver si pertenece a un usuario de mi app. Esto se logra haciendo una validacion buscando en mi db si existe x usuario con el id que viene en el token damos paso a la peticion si es que es un usuario real o generamos un error en caso de que no lo sea
